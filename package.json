@@ -1,0 +1,23 @@
+{
+  "name": "battlelolsh",
+  "version": "1.0.0",
+  "description": "Ofc battlecity ch",
+  "main": "src/main.js",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LyeZinho/Battle_LoLSH.git"
+  },
+  "author": "LyePedro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LyeZinho/Battle_LoLSH/issues"
+  },
+  "homepage": "https://github.com/LyeZinho/Battle_LoLSH#readme"
+}
