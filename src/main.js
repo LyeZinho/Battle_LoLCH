@@ -12,10 +12,20 @@ app.get('/keepalive', (req, res) => {
 
 
 app.get('/', (req, res) => {
-    
     res.sendFile(path.join(__dirname, '/routes/home.html'));
 })
 
+app.get('/melhores', (req, res) => {
+  res.sendFile(path.join(__dirname, '/routes/top.html'));
+})
+
+app.get('/lista', (req, res) => {
+  res.sendFile(path.join(__dirname, '/routes/champlist.html'));
+})
+
+app.get('/datas', (req, res) => {
+  res.sendFile(path.join(__dirname, '/routes/champdate.html'));
+})
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
